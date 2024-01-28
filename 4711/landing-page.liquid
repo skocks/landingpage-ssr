@@ -1,0 +1,9 @@
+<head>
+  <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+  <p>Hello {{user.first_name}} {{user.last_name}}!</p>
+  {% if devserver == true %}
+    <p>I'm on devserver!</p>
+  {% endif %}
+</body>
